@@ -1,0 +1,7 @@
+To install libusb-1.0:
+sudo apt-get install libusb-1.0-0-dev
+
+To compile C code with libusb-1.0:
+gcc lib_usb_app.c -o lib_usb_app -lusb-1.0 -D_POSIX_C_SOURCE=199309L
+
+Bulk streams: Don't look, only available on USB 3.0
